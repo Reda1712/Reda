@@ -1,20 +1,104 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home kenz-arab</title>
-</head>
-<body>
-    <h1> Projet </h1>
-    <p> hello to github</p>
-    <p> bonjour</p>
-    <h2>Hello</h2>
-    <h2>etape necessary to start this project</h2>
-    <ul>
-        <li>the simulition of circuit</li>
-        <li>the develope of a circuit application </li>
-    </ul>
-    <p> hello</p>
-</body>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" href="res/images/favicon.ico">
+ <title>My Dashboard</title>
+ </head>
+ <body>
+    <header>
+        <strong>Welcome to your dashboard!</strong>
+    </header>
+    <section>
+        <div>
+          <img src="res/images/me.png" width="128" height="128" alt="My picture">
+        </div>
+        <div>
+          <ul>
+            <li>Your name</li>
+            <li> A date following this format dd/mm/yyyy</li>
+            <li> Software Engineering </li>
+          </ul>
+        </div>
+        <div>
+           <strong>2.65</strong>
+        </div>
+    </section>
+    <section>
+      <h1>Courses</h1>
+       <table>
+        <thead>
+         <tr>
+          <th>#</th>
+          <th>Course Title</th>
+          <th>Semester</th>
+          <th>Grade</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>1</td>
+          <td>Agile software development</td>
+          <td>fall</td>
+          <td>82</td>
+         </tr>
+        <tr>
+            <td>2</td>
+            <td> Systems modelling </td>
+            <td>fall</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td> Requirements Engineering </td>
+            <td>fall</td>
+            <td>99</td>
+        </tr>
+         <tr>
+          <td>4</td>
+          <td> Human Computer Interaction </td>
+          <td>fall</td>
+          <td>65</td>
+         </tr>
+        </tbody>
+    </table>
+       </section>
+    <footer>
+      <ul>
+        <li>
+           <a href="https://www.inpt.ac.ma/">moodle</a>
+        </li>
+        <li>
+            <a href="https://m.inpt.ac.ma/">Courses</a>
+        </li>
+      </ul>
+    </footer>
+   <fieldset>
+    <legend>Remplire le Formulaire</legend>
+    <form action="index.html">
+        <div>
+            <label for="nom">Course Title:</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>    
+        <div>
+            <label id="semestre">Semestre:</label>
+            <select name="Fall" id="Fall" >
+                <option>Fall</option>
+                <option>Spring</option>
+            </select>
+        </div>
+        <label><strong>Attendence</strong></label>
+        <div>
+            <input type="radio">
+            <label name="reda" id="semestre">Attendce</label>
+        </div>
+        <div>
+            <input type="radio">
+            <label name="reda" id="semestre">Attendence</label> 
+        </div>
+        <input type="submit" value="submit"></input>
+    </form>
+  </fieldset>
+ </body>
 </html>
