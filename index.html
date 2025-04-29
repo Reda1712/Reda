@@ -5,14 +5,15 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="icon" href="res/images/favicon.ico">
  <title>My Dashboard</title>
+ <link rel="stylesheet" href="res/css/style.css">
  </head>
  <body>
-    <header>
+    <header class="header">
         <strong>Welcome to your dashboard!</strong>
     </header>
     <section>
         <div>
-          <img src="res/images/me.png" width="128" height="128" alt="My picture">
+          <img src="res/images/me.png" width="128" height="128" alt="My picture" class="logo">
         </div>
         <div>
           <ul>
@@ -64,7 +65,7 @@
         </tbody>
     </table>
     </section>
-    <footer>
+    <footer class="nav">
       <ul>
         <li>
            <a href="https://www.inpt.ac.ma/">moodle</a>
@@ -89,11 +90,11 @@
             </select>
         </div>
         <label><strong>Attendance</strong></label>
-        <div>
+        <div class="grid">
             <input type="radio" name="Virtual">
             <label>Virtual Attendance</label>
         </div>
-        <div>
+        <div class="grid">
             <input type="radio" name="Virtual">
             <label>physical Attendance</label> 
         </div>
